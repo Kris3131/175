@@ -170,41 +170,31 @@
 │ │ ├── auth.controller.ts
 │ │ └── auth.service.ts
 │ └── package.json
-├── pet-service/
+├── pet-management-service/
 │ ├── src/
 │ │ ├── main.ts
 │ │ ├── app.module.ts
-│ │ └── pet/
-│ │ ├── pet.controller.ts
-│ │ ├── pet.service.ts
-│ │ └── pet.entity.ts
-│ └── package.json
-├── park-service/
-│ ├── src/
-│ │ ├── main.ts
-│ │ ├── app.module.ts
-│ │ └── park/
-│ │ ├── park.controller.ts
-│ │ ├── park.service.ts
-│ │ └── park.entity.ts
-│ └── package.json
-├── event-service/
-│ ├── src/
-│ │ ├── main.ts
-│ │ ├── app.module.ts
-│ │ └── event/
-│ │ ├── event.controller.ts
-│ │ ├── event.service.ts
-│ │ └── event.entity.ts
-│ └── package.json
-├── lost-pet-service/
-│ ├── src/
-│ │ ├── main.ts
-│ │ ├── app.module.ts
+│ │ ├── pet/
+│ │ │ ├── pet.controller.ts
+│ │ │ ├── pet.service.ts
+│ │ │ └── pet.entity.ts
 │ │ └── lost-pet/
 │ │ ├── lost-pet.controller.ts
 │ │ ├── lost-pet.service.ts
 │ │ └── lost-pet.entity.ts
+│ └── package.json
+├── location-event-service/
+│ ├── src/
+│ │ ├── main.ts
+│ │ ├── app.module.ts
+│ │ ├── park/
+│ │ │ ├── park.controller.ts
+│ │ │ ├── park.service.ts
+│ │ │ └── park.entity.ts
+│ │ └── event/
+│ │ ├── event.controller.ts
+│ │ ├── event.service.ts
+│ │ └── event.entity.ts
 │ └── package.json
 ├── docker-compose.yml
 └── README.md
