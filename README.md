@@ -149,3 +149,62 @@
 7. 後端將整合後的協尋資訊返回給前端。
 8. 前端以列表或地圖形式展示協尋資訊。
 9. 用戶可以查看詳細信息，並可能有提供線索或聯繫失主的選項。
+
+## 專案架構
+
+175/
+├── gateway/
+│ ├── src/
+│ │ ├── main.ts
+│ │ └── app.module.ts
+│ └── package.json
+├── user-service/
+│ ├── src/
+│ │ ├── main.ts
+│ │ ├── app.module.ts
+│ │ ├── user/
+│ │ │ ├── user.controller.ts
+│ │ │ ├── user.service.ts
+│ │ │ └── user.entity.ts
+│ │ └── auth/
+│ │ ├── auth.controller.ts
+│ │ └── auth.service.ts
+│ └── package.json
+├── pet-service/
+│ ├── src/
+│ │ ├── main.ts
+│ │ ├── app.module.ts
+│ │ └── pet/
+│ │ ├── pet.controller.ts
+│ │ ├── pet.service.ts
+│ │ └── pet.entity.ts
+│ └── package.json
+├── park-service/
+│ ├── src/
+│ │ ├── main.ts
+│ │ ├── app.module.ts
+│ │ └── park/
+│ │ ├── park.controller.ts
+│ │ ├── park.service.ts
+│ │ └── park.entity.ts
+│ └── package.json
+├── event-service/
+│ ├── src/
+│ │ ├── main.ts
+│ │ ├── app.module.ts
+│ │ └── event/
+│ │ ├── event.controller.ts
+│ │ ├── event.service.ts
+│ │ └── event.entity.ts
+│ └── package.json
+├── lost-pet-service/
+│ ├── src/
+│ │ ├── main.ts
+│ │ ├── app.module.ts
+│ │ └── lost-pet/
+│ │ ├── lost-pet.controller.ts
+│ │ ├── lost-pet.service.ts
+│ │ └── lost-pet.entity.ts
+│ └── package.json
+├── docker-compose.yml
+└── README.md
