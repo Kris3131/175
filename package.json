@@ -1,0 +1,33 @@
+{
+  "name": "175",
+  "version": "1.0.0",
+  "description": "主要功能：",
+  "main": "index.js",
+  "dependencies": {
+    "ansi-styles": "^4.3.0",
+    "chalk": "^4.1.2",
+    "color-convert": "^2.0.1",
+    "color-name": "^1.1.4",
+    "consola": "^2.15.3",
+    "fast-safe-stringify": "^2.1.1",
+    "has-flag": "^4.0.0",
+    "iterare": "^1.2.1",
+    "node-fetch": "^2.7.0",
+    "path-to-regexp": "^3.2.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1",
+    "supports-color": "^7.2.0",
+    "tr46": "^0.0.3",
+    "tslib": "^2.6.3",
+    "uid": "^2.0.2",
+    "webidl-conversions": "^3.0.1",
+    "whatwg-url": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
